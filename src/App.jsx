@@ -1,9 +1,10 @@
 import React from 'react'
+import Header from './components/header/header'
 function App() {
   return (
     <>
-      <section className='w-full h-screen flex justify-center items-center'>
-        <h1 className='text-6xl font-bold'>Hello World!</h1>
+      <section className='w-full h-screen bg-primary'>
+        <Header />
       </section>
     </>
   )
