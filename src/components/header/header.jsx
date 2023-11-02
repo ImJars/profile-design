@@ -7,7 +7,7 @@ function Header() {
   return (
     <>
         <section
-            className='w-full h-14 bg-secondary text-white rounded-b-md shadow-[inset_0rem_-0.8rem_0.4rem_0_rgb(0,0,0,0.1)]'
+            className='w-screen h-14 bg-secondary text-white rounded-b-md shadow-[inset_0rem_-0.8rem_0.4rem_0_rgb(0,0,0,0.1)]'
         >
             <div className='h-full flex justify-between items-center mx-2'>
                 <button>
