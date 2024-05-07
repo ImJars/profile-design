@@ -13,7 +13,7 @@ function Profile() {
     <>
       <section className="mx-2 text-textPrimary font-sans">
         <div className=" bg-secondary w-full mt-20 rounded-3xl mx-auto">
-          <div>
+          <div className="-pb-40">
             <img
               src="https://picsum.photos/200/300"
               alt="profile"
@@ -60,7 +60,7 @@ function Profile() {
                       </button>
                     </div>
                   </div>
-                  <div className="flex justify-between mt-4 mx-2">
+                  {/* <div className="flex justify-between mt-4 mx-2">
                     <IconProfile 
                         icon={<LuFacebook />}
                     />
@@ -73,7 +73,7 @@ function Profile() {
                     <IconProfile 
                         icon={<FiLinkedin />}
                     />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
